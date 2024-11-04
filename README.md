@@ -3,10 +3,12 @@
 ## 📒 Descrição
 O código apresenta uma boa estrutura e lógica, mas há algumas áreas que podem ser aprimoradas para otimizar o código e torná-lo mais eficiente.
 
-Pontos Positivos:
+- Pontos Positivos:
+  
 Uso de objeto para armazenar o estado do jogo: A utilização do objeto jogo para armazenar as informações do jogo é uma boa prática, facilitando a organização do código.
 Funções auxiliares: As funções verificarPar e verificarVitoria ajudam a modularizar o código e torná-lo mais legível.
 Comentários: A presença de comentários explica o propósito de algumas partes do código, o que facilita a compreensão.
+
 Pontos a Melhorar:
 Duplicação de código:
 
@@ -24,19 +26,20 @@ Falta de parada do cronômetro:
 A função verificarVitoria não para o cronômetro após o jogador encontrar todos os pares.
 
 ## 🤖 Tecnologias Utilizadas
-Gemini IA
+[Gemini](https://gemini.google.com/) IA
 
 ## 🧐 Processo de Criação
+
 Compreendendo a Tarefa
 
-Ao analisar o código JavaScript fornecido, meu objetivo principal era:
+- Ao analisar o código JavaScript fornecido, meu objetivo principal era:
 
 Identificar os pontos fortes: Reconhecer as partes bem implementadas e eficientes do código.
 Detectar os pontos fracos: Encontrar áreas onde o código poderia ser otimizado, simplificado ou melhor estruturado.
 Propor soluções: Sugerir melhorias e alternativas para tornar o código mais eficiente, legível e escalável.
 Processo de Criação do Conteúdo:
 
-Análise Detalhada do Código:
+- Análise Detalhada do Código:
 
 Linha por linha: Examinei cada linha de código para entender a sua função e como se encaixava no contexto geral do jogo.
 Estrutura: Avaliei a organização do código, a forma como as variáveis e funções eram declaradas e utilizadas.
@@ -124,7 +127,7 @@ const elementosCartas = document.querySelectorAll('.carta');
 elementosCartas.forEach(adicionarEventoClique);
 
 ## 💭 Reflexão (Opcional)
-Considerações Adicionais:
+- Considerações Adicionais:
 
 Contexto: Tentei me colocar no lugar de um desenvolvedor que está trabalhando nesse projeto para fornecer sugestões que fossem relevantes e práticas.
 Personalização: Adaptei as sugestões de acordo com o estilo de codificação do desenvolvedor original, buscando preservar as partes boas do código e apenas sugerir melhorias onde fossem necessárias.
